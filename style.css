@@ -14,7 +14,7 @@
 }
 body{
     font-family: var(--font-body);
-    background-color: var(--dg-dark);
+    background-color: var(--bg-dark);
     color: var(--text-main);
     line-height: 1.6;
 }
@@ -52,4 +52,56 @@ separator{
     background-color: var(--accent-gold);
     margin: 0 auto 30px auto;
 }
+btn {
+    display: inline-block;
+    padding: 10px 24px;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    transition:all 0.3s ease;
+    cursor:pointer;
+}
+btn-outline{
+    border: 1px solid var(--accent-gold);
+    color: var(--accent-gold);
+    background: transparent;
+}
+btn-outline:hover{
+    background: var(--accent-gold);
+    color: var(--bg-dark);
+}
+navbar{
+    position:absolute;
+    top:0;
+    width: 100%;
+    padding: 25px 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+nav-container{
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+logo{
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+}
+nav-links a{
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    color: var(--text-muted);
+    transition: color 0.3s ease;
+}
+nav-links a:hover{
+    color: var(--accent-gold);
+}
+
+
+
 
