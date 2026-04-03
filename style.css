@@ -138,6 +138,15 @@ hero-content h1{
     color: #fff;
     margin-bottom: 15px;
 }
+hero-content p{
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 40px;
+}
+story-section{
+    padding: 100px 0;
+    background-color: var(--bg-light);
+}
 story-text{
     color: var(--text-muted);
     text-align: center;
@@ -168,6 +177,50 @@ category-title{
 menu-items{
     margin-bottom: 30px; 
 } 
+item-details{
+    width: 100%
+}
+item-header{
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    margin-bottom: 8px;
+}
+item-name{
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #fff;
+    white-space: nowrap;
+}
+item-line{
+    flex-grow: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0 20px;
+    position: relative;
+    top: -5px;
+}
+item-price{
+    font-family: var(--font-body);
+    font-size: 1.1rem;
+    color: var(--accent-gold);
+}
+item-desc{
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    max-width: 80%;
+}
+footer{
+    background-color: var(--bg-dark);
+    padding: 80px 0 40px 0;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+
+
+
+
 
 
 
